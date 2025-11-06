@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 function App() {
   const [time,setTime] =useState(0);
+  const [rest,setrest] =useState(0);
   const [timeRunning,setTimeRunnig] =useState(false);
   useEffect(()=>{
     if (!timeRunning) return;
@@ -18,6 +19,8 @@ function App() {
   
   }, [timeRunning, time])
 
+
+  
   const startClick =()=>{
     if(time > 0){
 
@@ -30,17 +33,21 @@ function App() {
   const resetClick =()=>{
     
     setTimeRunnig(false)
-    setTime(0)
+    setTime(rest)
+  }
+  function changeHandle(e){
+    setrest(e.target.value);
+    setTime(e.target.value)
   }
   return (
     <div>
       <h1>countdown timer</h1>
       <label htmlFor="time">set time (seconds)</label>
-      <input type="number" id='time' onChange={(e)=> setTime((e.target.value))} value={time}/> 
+      <input type="number" id='time' onChange={changeHandle} /> 
       <p>time left : {time} seconds</p>
       <button disabled={time > 0 && timeRunning} onClick={startClick}>start</button>
       <button disabled={time === 0 || !timeRunning} onClick={stopClick}>stop</button>
-      <button disabled={time === 0} onClick={resetClick}>reset</button>
+      <button onClick={resetClick}>reset</button>
 
     </div>
   )
