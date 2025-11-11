@@ -1,0 +1,51 @@
+
+body{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#2345,rgba(21, 119, 216, 0.333));
+  height: 100vh;
+  
+}
+.card{
+  background: #ffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+img{
+  border-radius: 20px;
+  width: 200px;
+}
+h1{
+  color:blue;
+  
+}
+.inputbtn input{
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  
+}
+button{
+  border-radius: 10px;
+  padding: 10px 15px;
+  color:blue;
+  
+
+}
+p{
+  font-size: 18px;
+  text-align: left;
+}
+.loding{
+  background: #ffff;
+  width: 300px;
+  height: 300px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 30px;
+ color: blue;
+ border-radius: 20px;
+}
