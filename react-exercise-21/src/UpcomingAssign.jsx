@@ -10,7 +10,7 @@ function UpcomingAssign() {
             <span className='text-md'>Javascript Advanced</span>
            </div>
            <div>
-            <p className='bg-green-500 rounded-full flex items-center justify-center'>Completeted</p>
+            <p className='bg-green-500 rounded-full flex items-center justify-center px-1'>Completeted</p>
             <p className='text-sm'>Due 2025-1-6</p>
            </div>
         </div>
