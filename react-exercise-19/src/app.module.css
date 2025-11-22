@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Container{
+    min-height: 30vh;
+    background: rgba(115, 21, 203, 0.408);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    color: blueviolet;
+}
+
+button{
+    background: blueviolet;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    color: #ffff;
+    margin: 10px;
+}
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 2px 10px;
+}
+.notFilled{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.filled{
+    color: rgb(18, 137, 34);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
