@@ -2,7 +2,7 @@ import ContactApp from "./ContactApp";
 function App() {
   return (
     <div>
-      <ContactApp />;
+      <ContactApp />
 
     </div>
   )
