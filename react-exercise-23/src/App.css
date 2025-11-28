@@ -1,0 +1,25 @@
+
+#inputValue{
+  border: 2px solid blueviolet;
+  border-radius:5px;
+  outline: none;
+  width: 90%;
+}
+button{
+  background: blueviolet;
+  border-radius: 10px;
+  padding: 5px 15px;
+  color: white;
+  margin-top: 20px;
+}
+
+.skillCol{
+  display: flex;
+  flex-direction: column;
+}
+.errorP{
+  color: red;
+  font-size: 14px;
+  margin: 0;
+  
+}
